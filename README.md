@@ -8,6 +8,29 @@ O Microsoft Entra ID é o serviço de gerenciamento de identidades e acesso base
 - Através do Entra ID é feito o controle de identidade.
 <br>
 
+   <div align="center">
+    <img width="627" height="458" alt="Microsoft-Entra-painel-1" src="https://github.com/user-attachments/assets/872e201c-8290-46cd-be75-b9a3fd61c42e" />
+
+<br>
+<br>
+<br>
+
+
+É possível fazer um modelo de sincronização, onde os usuários criados no on-promises são copiados para a nuvem (se você criar um usuário na Nuvem ele não é replicado para o ambiente on-premises).
+<br>
+
+<img width="885" height="229" alt="Microsoft-Entra-painel-2" src="https://github.com/user-attachments/assets/337985c0-05d6-42bf-9038-f153a023c505" />
+   </div>
+
+<br>
+
+<br>
+
+#### #Questão de Prova
+> Os usuários são excluídos de forma definitiva após 30 dias após serem desativados.
+
+<br>
+
 #### Responsabilidades do Microsoft Entra:
 - Autenticação (os funcionários entram para acessar os recursos).
 - Logon Único (SSO - Basta se autenticar em uma única aplicação que será validado o acesso para as demais aplicações).
@@ -94,9 +117,73 @@ Leva em consideração os seguintes aspectos:
     *Os permissionamentos são herdáveis.*
 </div>
 
+<br>
 
+### Confiança Zero
+*(Desconfie de todos e não confie em ninguém)*
+<br>
 
+Confiança Zero é um modelo de segurança que pressupõe violação e verifica cada solicitação como se tivesse se originado de uma rede descontrolada.
 
+Mais informações:
+[Segurança Zero Trust no Azure | Microsoft Learn](https://learn.microsoft.com/pt-br/azure/security/fundamentals/zero-trust)
+
+<br>
+
+   <div align="center">
+      PROTEÇÃO COMPLETA <br>
+      (Defesa em profundidade)
+      <br>
+
+<img width="420" height="330" alt="Defesa em Profundidade-1" src="https://github.com/user-attachments/assets/0322f93a-dc97-482d-92cc-3d73083d9b91" />
+   
+   <br>
+   </div>
+
+<br>
+
+   - Uma abordagem em camadas para proteger sistemas de computador. <br>
+   - Fornece vários níveis de proteção. <br>
+   - Ataques contra uma camada são isolados das camadas subsequentes. <br>
+
+   <br>
+
+### Microsoft Defender
+(Aplicação Cloud Native) <br>
+O Microsoft Defender para Nuvem é um serviço de monitoramento que fornece proteção contra ameaças nos datacenters do Azure e locais.
+
+- Traz uma visão sobre o que está certo e o que está errado dentro da organização.
+- Também faz a comunicação com o ambiente da AWS e do GCP (Google).
+- É um serviço trial (após o período o serviço é cobrado).
+   - É possível ativar a proteção dentro das camadas que fazem sentido (Storage Account, Servidores, etc).
+<br>
+
+- Fornece as recomendações de segurança.
+- Detecta e bloqueia malware.
+- Analisa e identifica ataques potenciais.
+- Controle de acesso just-in-time para portas.
+
+<br>
+
+## Identidade, Acesso e Segurança - Revisão
+- Diretório no Azure, incluindo o Microsoft Entra ID e o Microsoft Entra DOmain Services.
+- Métodos de autenticação no Azure, incluindo SSO, MFA e sem senha.
+- Identidades externas e o acesso de convidado no Azure.
+- Acesso Condicional do Entra.
+
+<br>
+
+### Documentação
+[https://learn.microsoft.com/training/modules/describe-azure-identity-access-security/1-introduction](https://learn.microsoft.com/training/modules/describe-azure-identity-access-security/1-introduction)
+
+[https://learn.microsoft.com/training/modules/describe-azure-identity-access-security/3-authentication-methods](https://learn.microsoft.com/training/modules/describe-azure-identity-access-security/3-authentication-methods)
+
+[https://learn.microsoft.com/training/modules/describe-azure-identity-access-security/4-external-identities](https://learn.microsoft.com/training/modules/describe-azure-identity-access-security/4-external-identities)
+
+[https://learn.microsoft.com/training/modules/describe-azure-identity-access-security//7-describe-zero-trust-model](https://learn.microsoft.com/training/modules/describe-azure-identity-access-security//7-describe-zero-trust-model)
+
+<br>
+<br>
 
 
 
